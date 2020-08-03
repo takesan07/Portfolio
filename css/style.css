@@ -1,0 +1,239 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first{
+  background-image: url(../takepic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  margin: 0;
+  position: relative;
+}
+
+.take{
+  position: absolute;
+  left: 10%;
+  top: 220px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  padding: 10px 0;
+  background-color: rgba(100, 200, 4000, 0.7);
+}
+
+.take h2{
+  font-size: 34px;
+  margin: 0 0 20px;
+}
+
+.twoway{
+  margin: 0;
+  font-size: 20px;
+  color:  black;
+}
+
+.portfolio{
+  margin: 10px 0 0;
+  font-size: 18px;
+  color:black;
+}
+.take span{
+  color: #fff;
+  font-weight: bold;
+}
+
+header{
+  background-color: rgb(81, 87, 94);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.header-bar{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header-bar a{
+  color: #fff;
+  transition: all 400ms;
+}
+
+.header-bar a:hover{
+  color: goldenrod;
+}
+
+#about{
+  background-color: #364549;
+  padding: 20px;
+  position: relative;
+}
+
+#about h3{
+  text-decoration: underline;
+  text-decoration-color:goldenrod;
+}
+
+#about p{
+  letter-spacing: 1px;
+}
+
+.sns{
+  position: absolute;
+  right: 20px;
+  top :39px;
+}
+
+.sns a{
+  color: #fff;
+}
+
+.sns a i{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+
+#skills{
+  background-color: cadetblue;
+  padding: 20px 20px 40px;
+}
+
+#skills h3{
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+table{
+  width: 70%;
+  margin: 0 auto; 
+  border-collapse: collapse;
+}
+th,td{
+  padding: 8px 0;
+  border: 2px solid #364549;
+}
+
+td{
+  text-align: center;
+}
+
+#works{
+  background-color: #364549;
+  padding: 20px;
+}
+
+#works h3{
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+.work{
+  margin-bottom: 50px;
+}
+
+.work h4{
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.work img{
+  display: block;
+  height: 200px;
+  margin: 0 auto;
+}
+
+#contact{
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+#contact h3{
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+.contact-form{
+  margin: 0 auto;
+}
+
+.contact-form input{
+  margin: 0 auto 10px;
+  display: block;
+  width: 60%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.contact-form textarea{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.contact-form button{
+  display: block;
+  width: 20%;
+  height: 40px;
+  background-color:#364549 ;
+  color: #fff;
+  margin: 20px auto 0;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+@media(min-width  :1000px){
+  .first{
+    background-position: top;
+  }
+  
+  .take{
+    top: 350px;
+    left: 15%;
+    padding: 20px 0;
+    width: 70%;
+  }
+
+  .take h2{
+    font-size: 40px;
+    letter-spacing: 1.5px;
+  }
+  
+  .for-lg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  table{
+    height: 200px;
+  }
+  
+  #works{
+    background-color: rgb(81, 87, 94);
+  }
+  
+.for-lg2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+  .work{
+    margin-bottom: 30px;
+  }
+  
+ 
+}
