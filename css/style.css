@@ -164,37 +164,6 @@ td{
   text-decoration-color: goldenrod;
 }
 
-.contact-form{
-  margin: 0 auto;
-}
-
-.contact-form input{
-  margin: 0 auto 10px;
-  display: block;
-  width: 60%;
-  height: 30px;
-  padding-left: 10px;
-}
-
-.contact-form textarea{
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  padding: 10px;
-}
-
-.contact-form button{
-  display: block;
-  width: 20%;
-  height: 40px;
-  background-color:#364549 ;
-  color: #fff;
-  margin: 20px auto 0;
-  font-weight: bold;
-  font-size: 18px;
-  letter-spacing: 1.5px;
-}
-
 @media(min-width  :1000px){
   .first{
     background-position: top;
@@ -213,8 +182,8 @@ td{
   }
   
   .for-lg{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content:space-around;
   }
 
   table{
