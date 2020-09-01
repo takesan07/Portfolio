@@ -89,7 +89,7 @@ header{
   letter-spacing: 1px;
 }
 
-.sns{
+#about .sns{
   position: absolute;
   right: 20px;
   top :39px;
@@ -154,6 +154,11 @@ td{
   margin: 0 auto;
 }
 
+.work P{
+  width: 60%;
+  margin: 30px auto 0;
+}
+
 #contact{
   background-color: cadetblue;
   padding: 20px;
@@ -163,6 +168,13 @@ td{
   text-decoration: underline;
   text-decoration-color: goldenrod;
 }
+
+#contact i{
+  font-size:30px;
+  margin-right: 20px;
+}
+
+
 
 @media(min-width  :1000px){
   .first{
@@ -184,7 +196,6 @@ td{
   .for-lg{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
   }
 
   table{
@@ -194,11 +205,16 @@ td{
   #works{
     background-color: rgb(81, 87, 94);
   }
+
+  .work p{
+    width: 100%;
+  }
   
 .for-lg2{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 0 100px;
 }
 
   .work{
